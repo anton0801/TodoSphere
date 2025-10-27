@@ -8,13 +8,13 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.profitcalc.EggProfit
+        bundle_identifier: com.manageroftasksapps.TodoSphere
       vars:
         APP_STORE_CONNECT_KEY: todosphere_app_key
-        APP_STORE_APPLE_ID: 6753625851
-        BUNDLE_ID: "com.profitcalc.EggProfit"
-        XCODE_PROJECT: "EggProfit.xcodeproj"
-        XCODE_SCHEME: "EggProfit"
+        APP_STORE_APPLE_ID: 6754563436
+        BUNDLE_ID: "com.manageroftasksapps.TodoSphere"
+        XCODE_PROJECT: "TodoSphere.xcodeproj"
+        XCODE_SCHEME: "TodoSphere"
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
