@@ -11,8 +11,9 @@ struct SplashScreenView: View {
     var body: some View {
         ZStack {
             if isActive {
-                ContentView()
+                OnboardingView()
                     .environmentObject(taskManager)
+                    .transition(.opacity)
             } else {
                 ZStack {
                     // Cosmic background
